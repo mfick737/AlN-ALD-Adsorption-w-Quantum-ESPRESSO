@@ -11,8 +11,11 @@ variables like folder locations have been modified.
 This repository contains two kinds of files:
 1) Quantum ESPRESSO input files
 2) Python scripts
+3) Bash .sh executable scripts
 
 The syntax of QE input files for various QE executables (pw.x, bands.x, ph.x etc.) can be found online.
+
+The python and bash scripts were used to create, analyze, or run input files
 
 I plan on publishing some of the results from my investigation on an open-source platform in the near future. 
 
