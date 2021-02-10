@@ -1,2 +1,19 @@
 # AlN-ALD-Adsorption-w-Quantum-ESPRESSO
-Contains example QE input files, .pbs files, and python scripts used for project
+
+Hello,
+
+This repository contains examples of QE inputs files and python scripts I used to run and/or analyze 
+density functional theory (DFT) calculations that investiaged surface reactions on aluminum nitride (AlN) slabs.
+
+Although many of the keywords/variables stated in the example files are the ones I used to perform tests, some
+variables like folder locations have been modified. 
+
+This repository contains two kinds of files:
+1) Quantum ESPRESSO input files
+2) Python scripts
+
+The syntax of QE input files for various QE executables (pw.x, bands.x, ph.x etc.) can be found online.
+
+I plan on publishing some of the results from my investigation on an open-source platform in the near future. 
+
+
