@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 28 17:53:49 2020
-
-@author: Mikey
-"""
-
 #=============================================================================#
 #======================== QE batch input file generator ======================#
 #=============================================================================#
@@ -28,7 +21,7 @@ for i in range(len(ecutwfc)):
 # Extract unit cell file information
 directory1 = r"C:\Users\Mikey\Documents\DFT\location\unitcell\info"
 os.chdir(directory1)
-filename = "AlN_unitcell_info.txt"
+filename = "AlN_unitcell_info.txt"  # file is in the repo as an example
 slab_fh = open(filename,'r')
 file_list = (slab_fh.readlines())
 
